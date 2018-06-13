@@ -27,9 +27,9 @@ a {
 /*       MAIN        */
 /*********************/
 
-p{
+/*p{
     margin-left: 70px;
-}
+}*/
 .site-title {
     padding: 0;
     text-align: center;
@@ -62,7 +62,41 @@ a.button1{
     color:#434750;
     background-color: #fff;
     font-size: 0.9rem;
+    padding: 7px 20px 7px 20px;    
+}
+.person-name{
+    font-size: 1.5rem;
+    background-color: #dbdbdb;
+    display: flex;
+    width: 30rem;
+    margin: 10px;
+    height: 10em; /* hauteur du parent */
+    line-height: 10em; /* hauteur de ligne (identique) */
+    white-space: nowrap; /* interdiction de passer à la ligne */
+}
+a.button2{
+    color: #fff;
+    background-color: #434750;
+    font-size: 1rem;
     padding: 7px 20px 7px 20px;
-    
+    margin: 60px 60px 0 0;
+}
+.person-name-p{
+    padding: 40px 65px 0 15px;
+    width: 20rem;
+}
+.person-name-button{
+    width: 10rem;
+    text-align: center;
+}
 
+.cell{
+    background-color: #EFEFEF;
+}
+.space{
+    margin: 10em;
+    background: #ffff;
+}
+.table tr{
+    border-top: 1rem solid #ffff;
 }

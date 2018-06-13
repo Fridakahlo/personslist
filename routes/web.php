@@ -10,15 +10,19 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+use App\Http\Controllers\PersonsController;
 
 Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('list-page', function () {
-    return view('list-page');
+Route::resource('list-page', 'PersonsController');
+
+Route::get('view-page/{id}', function ($id) {
+	return PersonsController::showperson($id);
 });
 
-Route::get('view-page', function () {
-    return view('view-page');
-});
+// Route::get('person-page/{id}', 'PersonsController@showperson');
+// 	return view('person-page');
+
+
