@@ -10,7 +10,7 @@
         <tr>
   @foreach ($persons as $person)
         <td class="cell">{{$person ['name']}}</td>
-        <td class="cell"><a href="/view-page/{{$person->id}}" type="button" class="btn btn-dark">Voir</a></td>
+        <td class="cell"><a href="/list-page/{{$person->id}}" type="button" class="btn btn-dark">Voir</a></td>
         
       @if ($person ['id'] %3 == 0)
         </tr><tr>

@@ -11,13 +11,13 @@ class PersonsController extends Controller
     $persons = \App\Persons::all(); 
     // we select all the entries of persons table
  
-    return view('list-page', ['persons' => $persons]);
+    return view('list-page', compact('persons'));
     // we return index view of view/products file
  
 
-}
+	}
 
-	public static function showperson($id){
+	public function show($id){
 
 		 $person = \App\Persons::find($id);
 

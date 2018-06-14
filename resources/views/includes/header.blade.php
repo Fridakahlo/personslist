@@ -10,7 +10,7 @@
        		<p>Une liste de personnes</p>
        	</div>
        	<div class="col-md-2 col-xs-2 site-subtitle-button">
-       		<a href="./view-page" class="button1">Voir la liste</a>
+       		<a href="/list-page" class="button1">Voir la liste</a>
         </div>    
     </div> 
   </div>

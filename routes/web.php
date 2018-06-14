@@ -18,9 +18,9 @@ Route::get('/', function () {
 
 Route::resource('list-page', 'PersonsController');
 
-Route::get('view-page/{id}', function ($id) {
-	return PersonsController::showperson($id);
-});
+// Route::get('view-page/{id}', function ($id) {
+// 	return PersonsController::showperson($id);
+// });
 
 // Route::get('person-page/{id}', 'PersonsController@showperson');
 // 	return view('person-page');

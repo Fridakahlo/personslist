@@ -100,3 +100,40 @@ a.button2{
 .table tr{
     border-top: 1rem solid #ffff;
 }
+
+/*===============*/
+/*  person_card  */
+/*===============*/
+.biography {
+    column-count: 2;
+    column-gap: 2em;
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+.name {
+    font-size: 2em;
+}
+.job {
+    font-size: 1.5em;
+}
+.job::after{
+    content: ' ';
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: 1px solid #aaa;
+    width: 80px;
+}
+.address {
+    background-color: grey;
+}
+
+p.text-left, p.text-right {
+    margin: 0;
+    padding: 0;
+    font-size: 0.5em;
+}
+.contact {
+    word-break: break-all;
+}
